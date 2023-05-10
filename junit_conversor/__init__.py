@@ -24,7 +24,7 @@ def _parse(input):
             for vulnerability in vulnerabilities:
 
                 error = {
-                    'name': vulnerability['name'],
+                    'name': "{0}:{1}".format(vulnerability['name'], library_name),
                     'file': library_name,
                     'code': vulnerability['type'],
                     'severity': vulnerability['severity'],
