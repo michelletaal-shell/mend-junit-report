@@ -55,11 +55,11 @@ def _convert(origin, destination):
                 "file": error['file'],
                 "line": "",
                 "col": "",
-                "message": "{0}:{1} {2}".format(error['code'], error['severity'], error['detail']),
+                "message": "{0}: {1}".format(error['file'], error['detail']),
                 "type": "Whitesource %s" % error['code']
             }
 
-            text = "{0}:{1}:{2} {3}".format(error['code'], error['severity'], error['score'], error['detail'])
+            text = "{0}:{1}:{2} {3}:{4}".format(error['code'], error['severity'], error['score'], error['file'], error['detail'])
 
             ET.SubElement(testcase, "failure", **kargs).text = text
 
