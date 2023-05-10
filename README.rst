@@ -26,10 +26,10 @@ Changelog
 
 -------------
 
-`CONTRIBUTORS <https://sede-x.github.com/mend-junit-report/graphs/contributors>`_
+`CONTRIBUTORS <https://github.com/michelletaal-shell/mend-junit-report/graphs/contributors>`_
 
 Copyrights
 ---------
-This package is an adaptation of the flake8-junit-report (https://github.com/initios/flake8-junit-report). Copyrights for the source code belongs to Initios Desarrollos S.L.
+This package is an adaptation of the `flake8-junit-report <https://github.com/initios/flake8-junit-report>`_. Copyrights for the source code belongs to Initios Desarrollos S.L.
 
 Any modifications are the intellectual property of Shell Energy.
