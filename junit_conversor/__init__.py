@@ -24,7 +24,7 @@ def _parse(input):
             for vulnerability in vulnerabilities:
 
                 error = {
-                    'name': "{0}:{1}".format(vulnerability['name'], library_name),
+                    'name': "{0}:{1}".format(library_name, vulnerability['name']),
                     'file': library_name,
                     'code': vulnerability['type'],
                     'severity': vulnerability['severity'],
@@ -48,7 +48,7 @@ def _convert(origin, destination):
     testsuite.attrib["time"] = "1"
 
     for file_name, errors in parsed.items():
-        testcase = ET.SubElement(testsuite, "testcase", name=file_name)
+        testcase = ET.SubElement(testsuite, "testcase", name=file_name, class_name=file_name.split(":", 2)[0])
 
         for error in errors:
             kargs = {
