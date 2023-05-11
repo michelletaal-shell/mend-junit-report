@@ -1,0 +1,76 @@
+{
+  "projectVitals": {
+    "name": "xxx",
+    "token": "xxx",
+    "creationDate": "2023-04-04 06:48:28",
+    "lastUpdatedDate": "2023-05-10 07:23:27",
+    "productName": "xxx"
+  },
+  "libraries": [
+    {
+      "customAttributeValues": [],
+      "keyUuid": "xxx",
+      "keyId": 123,
+      "type": "PYTHON_PACKAGE",
+      "languages": "Python",
+      "references": {
+        "url": "https://files.pythonhosted.org/packages/f9/a1/d5c6350a39a2cf221236883d3c6f2b50e3ef5e4f4b7ebf06ee280521a32d/contourpy-1.0.7-cp39-cp39-win_amd64.whl",
+        "genericPackageIndex": "https://pypi.python.org/pypi/contourpy/1.0.7"
+      },
+      "matchType": "SHA1",
+      "sha1": "xxx",
+      "name": "contourpy-1.0.7-cp39-cp39-win_amd64.whl",
+      "artifactId": "contourpy-1.0.7-cp39-cp39-win_amd64.whl",
+      "version": "1.0.7",
+      "groupId": "contourpy",
+      "licenses": [
+        {
+          "name": "BSD 3",
+          "url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "profileInfo": {
+            "copyrightRiskScore": "THREE",
+            "patentRiskScore": "THREE",
+            "copyleft": "NO",
+            "linking": "NON_VIRAL",
+            "royaltyFree": "NO"
+          },
+          "references": [
+            {
+              "referenceType": "PyPI (details available in Python Package Index)",
+              "reference": "https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/4f07c1d4-0879-48f7-b63e-0c42ca03eaec"
+            },
+            {
+              "referenceType": "PyPI (details available in Python Package Index)",
+              "reference": "https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/321c902e-17b1-4664-a909-61417cd3e7cc"
+            }
+          ]
+        }
+      ],
+      "vulnerabilities": []
+    }
+  ],
+  "policyStatistics": {
+    "totalApproved": 0,
+    "totalRejected": 0,
+    "totalReassigned": 0,
+    "totalConditions": 0,
+    "totalIssues": 0,
+    "totalLibrariesAffected": 0
+  },
+  "vulnerabilityStatistics": {
+    "low": 0,
+    "medium": 0,
+    "high": 1,
+    "critical": 1,
+    "newVulnerabilities": 1,
+    "oldVulnerabilities": 0,
+    "ancientVulnerabilities": 1,
+    "totalOutdated": 0,
+    "totalVulnerableOutdated": 0,
+    "totalLowVulnerabilities": 0,
+    "totalMediumVulnerabilities": 0,
+    "totalHighVulnerabilities": 1,
+    "totalCriticalVulnerabilities": 1,
+    "totalVulnerable": 1
+  }
+}

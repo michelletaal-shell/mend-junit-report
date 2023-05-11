@@ -1,0 +1,143 @@
+{
+  "projectVitals": {
+    "name": "xxx",
+    "token": "xxx",
+    "creationDate": "2023-04-04 06:48:28",
+    "lastUpdatedDate": "2023-05-10 07:23:27",
+    "productName": "xxx"
+  },
+  "libraries": [
+    {
+      "customAttributeValues": [],
+      "keyUuid": "xxx",
+      "keyId": 123,
+      "type": "SOURCE_LIBRARY",
+      "references": {},
+      "sha1": "xxx",
+      "name": "xxx",
+      "artifactId": "xxx",
+      "version": "",
+      "groupId": "",
+      "licenses": [],
+      "vulnerabilities": []
+    },
+    {
+      "customAttributeValues": [],
+      "keyUuid": "xxx",
+      "keyId": 123,
+      "type": "PYTHON_PACKAGE",
+      "languages": "Python",
+      "references": {
+        "url": "https://files.pythonhosted.org/packages/f6/f0/10642828a8dfb741e5f3fbaac830550a518a775c7fff6f04a007259b0548/py-1.11.0-py2.py3-none-any.whl",
+        "homePage": "https://py.readthedocs.io/",
+        "genericPackageIndex": "https://pypi.python.org/pypi/py/1.11.0"
+      },
+      "matchType": "SHA1",
+      "sha1": "xxx",
+      "name": "py-1.11.0-py2.py3-none-any.whl",
+      "artifactId": "py-1.11.0-py2.py3-none-any.whl",
+      "version": "1.11.0",
+      "groupId": "py",
+      "licenses": [
+        {
+          "name": "MIT",
+          "url": "http://www.opensource.org/licenses/MIT",
+          "profileInfo": {
+            "copyrightRiskScore": "THREE",
+            "patentRiskScore": "ONE",
+            "copyleft": "NO",
+            "royaltyFree": "YES"
+          },
+          "references": [
+            {
+              "referenceType": "PyPI (details available in Python Package Index)",
+              "reference": "https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/67516005-d0c2-4273-a03e-eac6e1db70b2"
+            },
+            {
+              "referenceType": "PyPI (details available in Python Package Index)",
+              "reference": "https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/d2ecb0a7-8f2a-4ce8-8ac9-16462d5fdc34"
+            }
+          ]
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "name": "CVE-2022-42969",
+          "type": "CVE",
+          "severity": "HIGH",
+          "score": 7.5,
+          "cvss3Severity": "HIGH",
+          "cvss3Score": 7.5,
+          "scoreMetadataVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "publishDate": "Oct 16, 2022 12:00:00 AM",
+          "url": "https://www.mend.io/vulnerability-database/CVE-2022-42969",
+          "description": "The py library through 1.11.0 for Python allows remote attackers to conduct a ReDoS (Regular expression Denial of Service) attack via a Subversion repository with crafted info data, because the InfoSvnCommand argument is mishandled.",
+          "references": []
+        }
+      ]
+    },
+    {
+      "customAttributeValues": [],
+      "keyUuid": "xxx",
+      "keyId": 123,
+      "type": "PYTHON_PACKAGE",
+      "languages": "Python",
+      "references": {
+        "url": "https://files.pythonhosted.org/packages/f9/a1/d5c6350a39a2cf221236883d3c6f2b50e3ef5e4f4b7ebf06ee280521a32d/contourpy-1.0.7-cp39-cp39-win_amd64.whl",
+        "genericPackageIndex": "https://pypi.python.org/pypi/contourpy/1.0.7"
+      },
+      "matchType": "SHA1",
+      "sha1": "xxx",
+      "name": "contourpy-1.0.7-cp39-cp39-win_amd64.whl",
+      "artifactId": "contourpy-1.0.7-cp39-cp39-win_amd64.whl",
+      "version": "1.0.7",
+      "groupId": "contourpy",
+      "licenses": [
+        {
+          "name": "BSD 3",
+          "url": "http://www.opensource.org/licenses/BSD-3-Clause",
+          "profileInfo": {
+            "copyrightRiskScore": "THREE",
+            "patentRiskScore": "THREE",
+            "copyleft": "NO",
+            "linking": "NON_VIRAL",
+            "royaltyFree": "NO"
+          },
+          "references": [
+            {
+              "referenceType": "PyPI (details available in Python Package Index)",
+              "reference": "https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/4f07c1d4-0879-48f7-b63e-0c42ca03eaec"
+            },
+            {
+              "referenceType": "PyPI (details available in Python Package Index)",
+              "reference": "https://index.whitesourcesoftware.com/gri/app/reader/resource/content/asString/321c902e-17b1-4664-a909-61417cd3e7cc"
+            }
+          ]
+        }
+      ]}
+  ],
+  "policyStatistics": {
+    "totalApproved": 0,
+    "totalRejected": 0,
+    "totalReassigned": 0,
+    "totalConditions": 0,
+    "totalIssues": 0,
+    "totalLibrariesAffected": 0
+  },
+  "vulnerabilityStatistics": {
+    "low": 0,
+    "medium": 0,
+    "high": 1,
+    "critical": 1,
+    "newVulnerabilities": 1,
+    "oldVulnerabilities": 0,
+    "ancientVulnerabilities": 1,
+    "totalOutdated": 0,
+    "totalVulnerableOutdated": 0,
+    "totalLowVulnerabilities": 0,
+    "totalMediumVulnerabilities": 0,
+    "totalHighVulnerabilities": 1,
+    "totalCriticalVulnerabilities": 1,
+    "totalVulnerable": 1
+  }
+}
