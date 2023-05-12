@@ -14,7 +14,11 @@ def _parse(input):
 
     for library in libraries:
 
-        vulnerabilities = library['vulnerabilities']
+        try:
+            vulnerabilities = library['vulnerabilities']
+        except KeyError:
+            Warning("You input file contains invalid lines")
+            vulnerabilities = {}
 
         # Skip invalid lines
         if len(vulnerabilities) != 0:
