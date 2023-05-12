@@ -2,3 +2,4 @@ build/*
 dist/*
 mend_junit_report.egg-info
 *__pycache__*
+*.xml
